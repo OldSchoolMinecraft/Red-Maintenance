@@ -1,0 +1,20 @@
+{
+    "$schema": "https://raw.githubusercontent.com/Cog-Creators/Red-DiscordBot/V3/develop/schema/red_cog.schema.json",
+    "name": "Maintenance",
+    "short": "Allow admins to open maintenance windows.",
+    "description": "Posts a message into the provided channel, with the provided start time and end time using relative timestamps.",
+    "end_user_data_statement": "This cog does not persistently store any data or metadata about users.",
+    "install_msg": "You installed Maintenance!",
+    "author": [
+        "moderator_man"
+    ],
+    "required_cogs": {},
+    "requirements": [],
+    "tags": [
+        "admin"
+    ],
+    "min_bot_version": "3.5.0",
+    "hidden": false,
+    "disabled": false,
+    "type": "COG"
+}
