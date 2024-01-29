@@ -22,7 +22,7 @@ class Maintenance(commands.Cog):
         )
     
     @commands.command()
-    @commands.is_admin()  # Restrict command to administrators
+    @commands.admin()  # Restrict command to administrators
     async def maintenance(self, ctx, start_time, end_time, channel_id: int):
         """Sets a maintenance window with the given start and end times in the specified channel."""
 
