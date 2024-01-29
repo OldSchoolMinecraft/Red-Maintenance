@@ -5,5 +5,5 @@
     "short" : "Allows admins to open generic maintenance windows",
     "description" : "Provides a maintenance command that takes in a start time, end time, and channel for sending a generic maintenance window message.",
     "tags" : ["admin", "maintenance", "tool"],
-    "hidden" : true
+    "hidden" : false
 }
