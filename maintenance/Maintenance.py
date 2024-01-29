@@ -53,7 +53,7 @@ class Maintenance(commands.Cog):
 
         embed = discord.Embed(
             title="Maintenance Window",
-            description="**A maintenance window has been opened!**"
+            description="**A maintenance window has been opened!**",
             color=discord.Color.blue()
         )
         embed.add_field(name="Start Time", value=start_timestamp, inline=False)
